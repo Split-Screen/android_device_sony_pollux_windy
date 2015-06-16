@@ -21,7 +21,9 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/pollux_windy/overlay
 
 # Device specific init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
+    $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc \
+    $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device \
+    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # irsc_util config
 PRODUCT_COPY_FILES += \
