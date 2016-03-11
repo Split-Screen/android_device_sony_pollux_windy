@@ -22,8 +22,8 @@
 #
 #
 
-TARGET_SCREEN_HEIGHT := 1200
-TARGET_SCREEN_WIDTH := 1920
+# Boot animation
+PAC_BOOTANIMATION_NAME := 1920
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
