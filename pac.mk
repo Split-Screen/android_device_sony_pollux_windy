@@ -1,3 +1,6 @@
+# Boot animation
+PAC_BOOTANIMATION_NAME := 1920
+
 $(call inherit-product, device/sony/pollux_windy/full_pollux_windy.mk)
 
 # Enhanced NFC
